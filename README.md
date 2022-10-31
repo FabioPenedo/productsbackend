@@ -65,7 +65,7 @@ description | Descrição do produto
 Clone o projeto
 
 ```bash
-git clone https://github.com/FabioPenedo/lista-de-universidades
+git clone https://github.com/FabioPenedo/productsbackend
 ```
 
 Entre na pasta do projeto
