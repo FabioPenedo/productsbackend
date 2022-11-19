@@ -41,6 +41,14 @@ description | Descrição do produto
 
 ---
 
+### **/list/:id**
+
+- Método **GET**
+
+- Vai listar o produto registrado no banco de dados pelo id enviado na rota.
+
+---
+
 ### **/uptade/:id**
 
 - Método **PUT**
