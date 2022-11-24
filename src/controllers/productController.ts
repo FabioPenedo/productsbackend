@@ -23,12 +23,6 @@ export const productList = async (req: Request, res: Response) => {
   res.json({ products })
 };
 
-export const listById = async (req: Request, res: Response) => {
-  let id = parseInt(req.params.id)
-  let products = await ProductService.listedById(id)
-  res.json({ products })
-};
-
 export const changeProducts = async (req: Request, res: Response) => {
   let id = parseInt( req.params.id )
   if(req.body.name && req.body.price && req.body.inventory && req.body.description) {

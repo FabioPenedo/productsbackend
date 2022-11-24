@@ -14,10 +14,6 @@ export const listedProducts =  async () => {
   return ProductData.findAll();
 };
 
-export const listedById =  async (id: number) => {
-  return ProductData.findByPk(id);
-};
-
 export const alteredProducts = async (id: number, name: string, price: number, inventory: number, description: string) => {
   const hasProduct = await ProductData.findAll({where: { id }}) 
   if(hasProduct.length > 0) {
